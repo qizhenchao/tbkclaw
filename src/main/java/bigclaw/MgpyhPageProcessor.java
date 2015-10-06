@@ -35,6 +35,9 @@ public class MgpyhPageProcessor implements PageProcessor{
 			//title /html/body/div[1]/div[2]/div/div[1]/h1/text()			
 			page.putField("title", page.getHtml().xpath("/html/body/div[1]/div[2]/div/div[1]/h1/text()").toString());
 			
+			///catagory html/body/div[1]/div[2]/div/div[1]/div[1]/a[1]
+			page.putField("catagory", page.getHtml().xpath("html/body/div[1]/div[2]/div/div[1]/div[1]/a[1]/text()").toString());
+			
 			//img /html/body/div[1]/div[2]/div/div[1]/div[2]/div/div/img
 			page.putField("img", page.getHtml().xpath("/html/body/div[1]/div[2]/div/div[1]/div[2]/div/div/img/@src").toString());			
 			

@@ -18,11 +18,12 @@ public class MgpyhPipeline implements Pipeline {
 		String selllink = resultItems.get("selllink");
 		String content = resultItems.get("content");
 		String realselllink = resultItems.get("realselllink");
-		
+		String catagory = resultItems.get("catagory");
 		//System.out.println(title);
-		System.out.println(img);
+		//System.out.println(img);
 		//System.out.println(selllink);
-		System.out.println(realselllink);		
+		//System.out.println(realselllink);	
+		System.out.println(catagory);	
 	//////	for (Map.Entry<String, Object> entry : resultItems.getAll().entrySet()) {
 //			System.out.println(entry.getKey() + ":\t" + entry.getValue());
 //		}
