@@ -27,9 +27,7 @@ public class MgpyhPageProcessor implements PageProcessor{
 
 	public void process(Page page) {
 		// TODO Auto-generated method stub
-		
-
-		
+				
 		if(page.getUrl().toString().contains("recommend")) //如果是详细也，获取内容
 		{
 			//title /html/body/div[1]/div[2]/div/div[1]/h1/text()			
